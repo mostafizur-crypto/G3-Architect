@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: "Work Sans", sans-serif;
+}
+
+/* Public Class */
+
+.text_color{
+    color: rgb(122, 120, 120);
+}
+
+.button_primary{
+    background-color:rgb(253, 146, 6);
+    border: none;
+    padding: 14px;
+    border-radius: 7px;
+}
+
+.orange{
+    color: orange;
+}
+/* Public Class End*/
+
+body{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* Header Section Start */
+
+
+.nav_container{
+    background-color: rgb(248, 230, 208);
+    padding: 20px 50px;
+    margin-bottom: 50px;
+}
+
+.nav_bar{
+    padding: 0px 50px;
+    display: flex;
+    background-color: rgb(248, 230, 208);
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_bar > ul{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+.nav_bar ul > li , a{
+    font-size: 1.3rem;
+    text-decoration: none;
+    list-style: none;
+}
+
+.nav_bar > h1{
+    font-size: 2.5rem;
+}
+
+.banner{
+    text-align: center;
+    width: 50%;
+
+}
+.banner_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.banner > h1{
+    font-size: 2.3rem;
+}
+
+.images{
+    display: flex;
+    justify-content: center;
+}
+.images img{
+    width: 100%;
+}
+/*---------------------- Header Section Start -----------------------*/
+
+/* Team Container */
+
+.Team_container{
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-evenly;
+    padding: 0px 100px;
+    margin-bottom: 100px;
+}
+
+.Team_container .team{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    margin-left: 200px;
+}
+.Team_container .team img{
+    width: 100%;
+}
+
+.features_container{
+    display: flex;
+    align-items: center;
+}
+.features_container .font_size{
+    font-size: 2.5rem;
+}
+/* ------------------------------Team Container ---------------------*/
+
+/*----------------- <!-- Features you will love & enjoy Section Start --> */
+.experience_secton{
+    display: flex;
+    justify-content: center;
+}
+.experience_container{
+    width: 80%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    justify-content: center;
+    padding: 10px 100px;
+}
+.experience_container .font_size{
+    font-size: 2rem;
+    border-left: 5px solid orange ;
+    padding: 10px;
+}
+
+.experience_container .card_container{
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 5px;
+    
+}
+.experience_container .experience .card{
+    padding: 2px;
+    width: 95%;
+    box-shadow: 10px 5px 5px rgb(238, 233, 233);
+    
+}
+.experience_container .image img{
+    width:110%;
+}
+.experience_container .image{
+    margin-left: 50px;
+}
+.experience_container .image .badge{
+    position: relative;
+    background-color: orange;
+    width: 200px;
+    text-align: center;
+    padding: 1px 3px;
+    border-radius: 5px;
+    margin-left: -100px;
+    margin-top: -80px;
+
+}
+.experience_container .image .badge h1{
+color: white;
+font-size: 2.5rem;
+}
+.experience_container .image .badge h4{
+    color: white;
+    font-size: 1.2rem;
+    margin-top: -30px;
+    }
+
+/*------------- <!-- Features you will love & enjoy Section Start --> */
+
+/* <!-------------------------- Some Facts Section Start --> */
+
+.fact_container{
+    margin-bottom: 150px;
+    padding: 10px 150px;
+}
+.fact_container .fact{
+    margin-bottom: 70px;
+}
+.fact_container .font_size{
+    font-size: 2.4rem;
+}
+
+
+.fact_container .award_section{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.award_section .award{
+    width: 180px;
+    text-align: center;
+    border:1px solid gold;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.award h1{
+    margin-top: -0.5px;
+    font-size: 2rem;
+}
+.award h4{
+    margin-top: -20px;
+    font-size: 1.2rem;
+}
+
+/* <!-- -----------------Some Facts Section END --> */
+
+/*  <!----------------------- Sponspors section Start --> */
+
+.sponspor_container{
+    margin-bottom: 150px;
+    padding: 10px 150px;
+    
+}
+
+.sponspor_container .sponspor{
+    margin-bottom: 50px;
+}
+
+.sponspor_container .font_size{
+    font-size: 2.4rem;
+}
+
+.sponspor{
+    text-align: center;
+}
+
+.sponspor_company{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+/*  <!----------------------- Sponspors section END --> */
+
+/* <!------------------ Footer Section Start ----------------------------> */
+.footer_container{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    margin-bottom: 100px;
+}
+.footer_container .footer{
+    background-color: bisque;
+    text-align: center;
+    width: 70%;
+    border-radius: 10px;
+}
+
+/* <!------------------ Footer Section END ----------------------------> */
